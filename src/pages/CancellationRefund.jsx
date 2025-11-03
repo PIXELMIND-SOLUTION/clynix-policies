@@ -1,37 +1,31 @@
 import React from "react";
 
-
 const CancellationRefundPolicy = () => {
   return (
     <div className="container my-5 px-3 px-md-5">
-      
-
+      {/* Header */}
       <div className="text-center mb-4">
         <h1 className="fw-bold">Cancellation & Refund Policy</h1>
-        <p className="text-muted">Last updated: 9 October 2025</p>
+        <p className="text-muted">Last updated: {new Date().toLocaleDateString()}</p>
       </div>
 
+      {/* Section 1 */}
       <section className="mb-4">
         <h5 className="fw-semibold">1. Cancellation Policy</h5>
         <p>
-          At <strong>Posternova</strong>, we strive to deliver a smooth and transparent user experience. 
-          If you wish to cancel your purchase or subscription, please review the following terms:
+          At <strong>Clynix</strong>, we are committed to ensuring a seamless and transparent experience 
+          for all our users. If you wish to cancel a purchase, please refer 
+          to the following terms:
         </p>
         <ul>
           <li>
-            Cancellations made within <strong>24 hours</strong> of purchase are eligible for a full refund.
+            Cancellations made Before <strong>Delivary Pickup</strong> of purchase are eligible for a full refund.
           </li>
-          <li>
-            Cancellations made after 24 hours but before any service or download begins may be eligible for a 
-            <strong>50% refund</strong>.
-          </li>
-          <li>
-            Once design assets, templates, or premium features have been accessed, downloaded, or used, 
-            <strong>no refund</strong> will be applicable.
-          </li>
+          
         </ul>
       </section>
 
+      {/* Section 2 */}
       <section className="mb-4">
         <h5 className="fw-semibold">2. Refund Policy</h5>
         <ul>
@@ -40,50 +34,78 @@ const CancellationRefundPolicy = () => {
             <strong> 7–10 business days</strong>.
           </li>
           <li>
-            If a payment error or duplicate transaction occurs, please contact us immediately for resolution.
+            In case of payment failure or duplicate transactions, contact our support team 
+            immediately for resolution.
           </li>
           <li>
-            Refunds are not applicable for partially used subscriptions or services that have already been rendered.
+            Refunds are not provided for that have already been delivered.
           </li>
         </ul>
       </section>
 
+      {/* Section 3 */}
       <section className="mb-4">
         <h5 className="fw-semibold">3. How to Request a Cancellation or Refund</h5>
         <p>
-          To cancel or request a refund, please reach out to our support team with your 
-          transaction details and the reason for your request:
+          To request a cancellation or refund, please contact our support team with your 
+          transaction details and a brief explanation of your request:
         </p>
         <ul>
-          <li>Email: <a href="mailto:info.posternova@gmail.com">info.posternova@gmail.com</a></li>
-          <li>Subject: <em>Refund Request – Posternova</em></li>
+          <li>
+            Email:{" "}
+            <a href="mailto:support@clynix.com" className="text-decoration-none">
+              support@clynix.com
+            </a>
+          </li>
+          <li>
+            Subject: <em>Refund Request – Clynix</em>
+          </li>
         </ul>
       </section>
 
+      {/* Section 4 */}
       <section className="mb-4">
         <h5 className="fw-semibold">4. Force Majeure</h5>
         <p>
-          In the event of unforeseen circumstances beyond our control — such as natural disasters, 
-          system outages, or government restrictions — Posternova reserves the right to cancel services 
-          or delay refunds without liability. In such cases, affected users will receive full refunds 
-          where applicable.
+          In case of events beyond our reasonable control, such as natural disasters, 
+          server outages, or government-imposed restrictions, <strong>Clynix</strong> reserves 
+          the right to cancel services or delay refunds without liability. In such cases, 
+          eligible users will receive a full refund where applicable.
         </p>
       </section>
 
+      {/* Section 5 */}
       <section className="mb-4">
         <h5 className="fw-semibold">5. Contact Us</h5>
         <p>
-          For any questions or concerns regarding our Cancellation & Refund Policy, please contact us:
+          For any concerns or queries regarding our Cancellation & Refund Policy, 
+          you can reach us via:
         </p>
         <ul>
-          <li>Email: <a href="mailto:info.posternova@gmail.com">info.posternova@gmail.com</a></li>
-          <li>Website: <a href="https://Posternova.com" target="_blank" rel="noopener noreferrer">https://Posternova.com</a></li>
+          <li>
+            Email:{" "}
+            <a href="mailto:support@clynix.com" className="text-decoration-none">
+              support@clynix.com
+            </a>
+          </li>
+          <li>
+            Website:{" "}
+            <a
+              href="https://clynix.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-decoration-none"
+            >
+              https://clynix.com
+            </a>
+          </li>
         </ul>
       </section>
 
+      {/* Footer */}
       <div className="text-center mt-5">
         <p className="text-muted small">
-          © {new Date().getFullYear()} Posternova. All rights reserved.
+          © {new Date().getFullYear()} Clynix. All rights reserved.
         </p>
       </div>
     </div>
