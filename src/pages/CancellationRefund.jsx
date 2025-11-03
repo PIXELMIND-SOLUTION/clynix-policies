@@ -96,7 +96,7 @@ const CancellationRefundPolicy = () => {
               rel="noopener noreferrer"
               className="text-decoration-none"
             >
-              https://clynix.com
+              www.clynix.com
             </a>
           </li>
         </ul>
