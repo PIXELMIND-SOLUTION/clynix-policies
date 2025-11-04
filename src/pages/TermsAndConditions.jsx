@@ -15,175 +15,272 @@ const TermsandConditions = () => {
             </p>
             <div
               className="divider mx-auto bg-gradient-primary"
-              style={{
-                width: "80px",
-                height: "4px",
-                borderRadius: "2px",
-              }}
+              style={{ width: "80px", height: "4px", borderRadius: "2px" }}
             ></div>
           </div>
 
           <p className="lead text-center mb-5">
-            These Terms and Conditions ("Terms") govern your use of the{" "}
-            <strong className="text-primary">Clynix</strong> mobile application ("App"). By accessing or using the App, you agree to
-            these Terms in full.
+            Welcome to{" "}
+            <strong className="text-primary">Clynix</strong> (“we”, “our”,
+            “us”). By downloading or using this app, you agree to the following
+            Terms and Conditions. Please read them carefully before using our
+            services.
           </p>
 
           {/* Terms Content */}
           <div className="terms-content">
-            {/* 1 */}
+            {/* 1. Use of the App */}
             <div className="terms-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
                   <span className="number-badge me-3">1</span>
-                  Acceptance of Terms
+                  Use of the App
                 </h4>
-                <p className="mb-0">
-                  By downloading, registering, or using Clynix, you acknowledge
-                  that you have read and agree to comply with these Terms. If
-                  you do not agree, you must discontinue use immediately.
-                </p>
+                <ul className="list-styled">
+                  <li>
+                    This app provides a platform to browse and purchase medicines
+                    from licensed pharmacies.
+                  </li>
+                  <li>You must be at least 18 years old to use this app.</li>
+                  <li>
+                    You agree to provide accurate information (name, mobile number,
+                    and OTP verification) when signing up.
+                  </li>
+                  <li>
+                    You are responsible for maintaining the confidentiality of your
+                    login information.
+                  </li>
+                </ul>
               </div>
             </div>
 
-            {/* 2 */}
+            {/* 2. Medical Disclaimer */}
             <div className="terms-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
                   <span className="number-badge me-3">2</span>
-                  Eligibility
+                  Medical Disclaimer
                 </h4>
-                <p className="mb-0">
-                  You must be at least 13 years old to use the App. By using
-                  Clynix, you confirm that you meet this age requirement and
-                  have the legal capacity to enter into a binding agreement.
-                </p>
+                <ul className="list-styled">
+                  <li>This app does not provide medical advice or diagnosis.</li>
+                  <li>
+                    All medicines are provided by licensed pharmacies listed on the
+                    platform.
+                  </li>
+                  <li>
+                    For prescription medicines, a valid prescription may be
+                    required before dispensing.
+                  </li>
+                  <li>
+                    Always consult a registered medical practitioner before using
+                    any medicine.
+                  </li>
+                </ul>
               </div>
             </div>
 
-            {/* 3 */}
+            {/* 3. Pharmacy Listings */}
             <div className="terms-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
                   <span className="number-badge me-3">3</span>
-                  User Responsibilities
+                  Pharmacy Listings
                 </h4>
                 <ul className="list-styled">
-                  <li>Provide accurate and truthful information when registering.</li>
-                  <li>Maintain confidentiality of your account credentials.</li>
-                  <li>Use Clynix only for lawful and intended purposes.</li>
                   <li>
-                    Do not upload harmful, misleading, or inappropriate content.
+                    Pharmacies listed in the app are responsible for the accuracy of
+                    their details, inventory, and pricing.
+                  </li>
+                  <li>We act only as a facilitator between users and pharmacies.</li>
+                  <li>
+                    We are not responsible for any errors, delays, or inaccuracies in
+                    medicine availability or delivery.
                   </li>
                 </ul>
               </div>
             </div>
 
-            {/* 4 */}
+            {/* 4. Orders and Payments */}
             <div className="terms-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
                   <span className="number-badge me-3">4</span>
-                  Service and Content Ownership
-                </h4>
-                <p className="mb-0">
-                  All content, trademarks, and technologies in Clynix are owned
-                  by Clynix or its licensors.
-                </p>
-              </div>
-            </div>
-
-            {/* 5 */}
-            <div className="terms-card card border-0 shadow-sm mb-4">
-              <div className="card-body p-4">
-                <h4 className="mb-3 d-flex align-items-center">
-                  <span className="number-badge me-3">5</span>
-                  Usage Restrictions
+                  Orders and Payments
                 </h4>
                 <ul className="list-styled">
-                  <li>Do not attempt to hack, reverse engineer, or disrupt the App.</li>
                   <li>
-                    Do not use Clynix to transmit spam, malware, or unauthorized
-                    advertisements.
+                    Orders can be placed through the app and paid via Razorpay or
+                    Cash on Delivery (COD).
                   </li>
-                  <li>Do not impersonate another user or entity.</li>
+                  <li>Payment processing is handled securely by Razorpay.</li>
+                  <li>
+                    Orders may be canceled or delayed by pharmacies depending on
+                    stock or prescription verification.
+                  </li>
                 </ul>
               </div>
             </div>
 
-            {/* 6 */}
+            {/* 5. Prescription Uploads */}
+            <div className="terms-card card border-0 shadow-sm mb-4">
+              <div className="card-body p-4">
+                <h4 className="mb-3 d-flex align-items-center">
+                  <span className="number-badge me-3">5</span>
+                  Prescription Uploads
+                </h4>
+                <p>
+                  You may upload a doctor’s prescription for verification where
+                  required. Uploaded prescriptions are used only to fulfill your
+                  order and are stored securely in accordance with our{" "}
+                  <a href="/privacy-policy" className="text-primary fw-semibold">
+                    Privacy Policy
+                  </a>
+                  .
+                </p>
+              </div>
+            </div>
+
+            {/* 6. Delivery */}
             <div className="terms-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
                   <span className="number-badge me-3">6</span>
-                  Termination
+                  Delivery
                 </h4>
-                <p className="mb-0">
-                  Clynix reserves the right to suspend or terminate accounts
-                  that violate these Terms, engage in fraudulent behavior, or
-                  misuse platform features.
-                </p>
+                <ul className="list-styled">
+                  <li>
+                    Deliveries are handled by authorized delivery partners or
+                    pharmacy staff.
+                  </li>
+                  <li>
+                    Delivery times are estimated and may vary based on location,
+                    stock, and pharmacy hours.
+                  </li>
+                </ul>
               </div>
             </div>
 
-            {/* 7 */}
+            {/* 7. Periodic Medicine Plans */}
             <div className="terms-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
                   <span className="number-badge me-3">7</span>
-                  Limitation of Liability
+                  Periodic Medicine Plans
                 </h4>
-                <p className="mb-0">
-                  Clynix and its affiliates shall not be liable for any indirect
-                  or consequential damages, including data loss or service
-                  interruptions, arising from your use of the App.
-                </p>
+                <ul className="list-styled">
+                  <li>
+                    Users can activate recurring medicine delivery plans (weekly or
+                    monthly).
+                  </li>
+                  <li>
+                    Users can modify or deactivate these plans anytime within the
+                    app.
+                  </li>
+                </ul>
               </div>
             </div>
 
-            {/* 8 */}
+            {/* 8. Data Protection */}
             <div className="terms-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
                   <span className="number-badge me-3">8</span>
-                  Modifications to Terms
+                  Data Protection
                 </h4>
-                <p className="mb-0">
-                  Clynix may update these Terms periodically. Any updates will
-                  be posted within the App, and continued use constitutes
-                  acceptance of the revised Terms.
+                <p>
+                  We collect minimal user data (name, mobile number, location) only
+                  to enable app functionality. Your data is protected and processed
+                  as described in our{" "}
+                  <a href="/privacy-policy" className="text-primary fw-semibold">
+                    Privacy Policy
+                  </a>
+                  .
                 </p>
               </div>
             </div>
 
-            {/* 9 */}
+            {/* 9. Limitation of Liability */}
             <div className="terms-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
                   <span className="number-badge me-3">9</span>
+                  Limitation of Liability
+                </h4>
+                <ul className="list-styled">
+                  <li>We are not liable for any side effects or medicine reactions.</li>
+                  <li>
+                    We are not responsible for delays or errors caused by pharmacies
+                    or delivery partners.
+                  </li>
+                  <li>
+                    We are not responsible for incorrect information provided by
+                    pharmacies or users.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* 10. Changes to These Terms */}
+            <div className="terms-card card border-0 shadow-sm mb-4">
+              <div className="card-body p-4">
+                <h4 className="mb-3 d-flex align-items-center">
+                  <span className="number-badge me-3">10</span>
+                  Changes to These Terms
+                </h4>
+                <p>
+                  We may update these Terms and Conditions at any time. Updates
+                  will be posted within the app and will take effect upon
+                  publication. Continued use constitutes acceptance of the updated
+                  Terms.
+                </p>
+              </div>
+            </div>
+
+            {/* 11. Contact Us */}
+            <div className="terms-card card border-0 shadow-sm mb-4">
+              <div className="card-body p-4">
+                <h4 className="mb-3 d-flex align-items-center">
+                  <span className="number-badge me-3">11</span>
                   Contact Us
                 </h4>
-                <div className="mt-3 p-3 bg-light rounded">
-                  <p className="mb-0">
-                    For questions or concerns, please contact our support team
-                    at:{" "}
+                <p>
+                  If you have any questions or complaints about these Terms, please
+                  contact us:
+                </p>
+                <ul className="list-styled">
+                  <li>
+                    📧 Email:{" "}
                     <a
-                      href="https://mail.google.com/mail/?view=cm&fs=1&to=simcurarx@gmail.com&su=Regarding%20Terms&body=Hello%20Clynix%20Team,"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href="mailto:simcurarx@gmail.com?subject=Regarding%20Terms%20and%20Conditions"
                       className="fw-semibold text-decoration-none"
                     >
                       simcurarx@gmail.com
                     </a>
-                  </p>
-                </div>
+                  </li>
+                  <li>📞 Phone: +91-XXXXXXXXXX</li>
+                </ul>
+              </div>
+            </div>
+
+            {/* 12. Governing Law */}
+            <div className="terms-card card border-0 shadow-sm mb-4">
+              <div className="card-body p-4">
+                <h4 className="mb-3 d-flex align-items-center">
+                  <span className="number-badge me-3">12</span>
+                  Governing Law
+                </h4>
+                <p className="mb-0">
+                  These Terms shall be governed by and interpreted according to the
+                  laws of India. Any disputes shall be subject to the exclusive
+                  jurisdiction of the courts in Chennai, India.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      {/* STYLES */}
+      {/* Styles */}
       <style jsx>{`
         .number-badge {
           display: inline-flex;
@@ -241,15 +338,12 @@ const TermsandConditions = () => {
           .display-4 {
             font-size: 2.2rem;
           }
-
-          .terms-card {
-            border-left: 3px solid #0d6efd !important;
-          }
-
           .card-body {
             padding: 1.5rem !important;
           }
-
+          .terms-card {
+            border-left: 3px solid #0d6efd !important;
+          }
           .lead {
             font-size: 1.1rem;
           }
@@ -259,17 +353,14 @@ const TermsandConditions = () => {
           .display-4 {
             font-size: 1.8rem;
           }
-
           .card-body {
             padding: 1.25rem !important;
           }
-
           .number-badge {
             width: 28px;
             height: 28px;
             font-size: 14px;
           }
-
           .lead {
             font-size: 1rem;
           }

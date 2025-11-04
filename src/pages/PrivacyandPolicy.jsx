@@ -8,7 +8,7 @@ const PrivacyAndPolicy = () => {
           {/* Header Section */}
           <div className="text-center mb-5">
             <h1 className="display-4 fw-bold text-primary mb-3">Privacy Policy</h1>
-            <p className="text-muted">Last updated: {new Date().toLocaleDateString()}</p>
+            <p className="text-muted">Effective Date: {new Date().toLocaleDateString()}</p>
             <div
               className="divider mx-auto bg-gradient-primary"
               style={{ width: "80px", height: "4px", borderRadius: "2px" }}
@@ -17,104 +17,119 @@ const PrivacyAndPolicy = () => {
 
           {/* Policy Content */}
           <div className="privacy-content">
-            {/* 1. Information Collection */}
+            {/* 1. Introduction */}
             <div className="policy-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
                   <span className="number-badge me-3">1</span>
-                  Information We Collect
+                  Introduction
                 </h4>
-
-                <h6 className="fw-semibold mt-4">When You Register:</h6>
-                <ul className="list-styled">
-                  <li>Your full name</li>
-                  <li>Your mobile number (used for login and verification)</li>
-                </ul>
-
-                <h6 className="fw-semibold mt-4">When You Update Your Profile:</h6>
-                <ul className="list-styled">
-                  <li>Updated name or profile photo</li>
-                  <li>Preferred address or delivery instructions</li>
-                </ul>
-
-                <h6 className="fw-semibold mt-4">Automatically Collected Information:</h6>
-                <ul className="list-styled">
-                  <li>Device and app version details</li>
-                  <li>Precise location (for faster and accurate medicine delivery)</li>
-                  <li>Usage statistics like cart actions, and delivery preferences</li>
-                </ul>
+                <p>
+                  <strong>Clynix</strong> (“we”, “our”, “us”) operates the Clynix mobile application
+                  (“the App”). This Privacy Policy explains how we collect, use, disclose, and
+                  safeguard your personal information when you use our app and related services.
+                </p>
+                <p>
+                  By using our App, you agree to the collection and use of information in accordance
+                  with this policy.
+                </p>
               </div>
             </div>
 
-            {/* 2. Use of Collected Information */}
+            {/* 2. Information We Collect */}
             <div className="policy-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
                   <span className="number-badge me-3">2</span>
-                  How We Use Your Information
+                  Information We Collect
                 </h4>
+
+                <h6 className="fw-semibold mt-3">a. Personal Information</h6>
                 <ul className="list-styled">
-                  <li>To verify your identity and maintain account security</li>
-                  <li>To process and deliver your medicine orders efficiently</li>
-                  <li>To provide customer support and delivery updates</li>
-                  <li>To improve our app experience and optimize delivery routes</li>
+                  <li>Full name</li>
+                  <li>Mobile number (for OTP verification and login)</li>
+                  <li>Address (for medicine delivery)</li>
+                  <li>Location data (for delivery tracking and nearby pharmacy detection)</li>
+                </ul>
+
+                <h6 className="fw-semibold mt-3">b. Device and Usage Data</h6>
+                <ul className="list-styled">
+                  <li>Device model, operating system version</li>
+                  <li>App usage analytics (to improve experience)</li>
+                </ul>
+
+                <h6 className="fw-semibold mt-3">c. Uploaded Files</h6>
+                <ul className="list-styled">
+                  <li>Prescription images or medicine photos (if uploaded by you)</li>
                 </ul>
               </div>
             </div>
 
-            {/* 3. Location Access */}
+            {/* 3. How We Use Your Information */}
             <div className="policy-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
                   <span className="number-badge me-3">3</span>
-                  Location Information
+                  How We Use Your Information
                 </h4>
-                <p>
-                  Clynix uses your location data to connect you with the nearest pharmacy and
-                  ensure timely delivery. Your location is accessed only when the app is in use or
-                  when delivery tracking is active. You can disable location access anytime from
-                  your device settings, but doing so may affect service accuracy.
-                
+                <ul className="list-styled">
+                  <li>To verify your identity via OTP verification</li>
+                  <li>To process and deliver your medicine orders through partner pharmacies</li>
+                  <li>To provide customer support and service updates</li>
+                  <li>To enhance user experience and optimize delivery performance</li>
+                  <li>To comply with applicable legal requirements</li>
+                </ul>
+                <p className="mt-3">
+                  We <strong>do not sell</strong> or rent your personal data to any third parties.
                 </p>
               </div>
             </div>
 
-            {/* 4. Data Protection */}
+            {/* 4. Information Sharing and Disclosure */}
             <div className="policy-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
                   <span className="number-badge me-3">4</span>
-                  How We Protect Your Data
+                  Information Sharing and Disclosure
                 </h4>
+                <p>We may share your information only with the following entities:</p>
                 <ul className="list-styled">
-                  <li>Secure HTTPS-based communication</li>
-                  <li>Encryption of sensitive data (like contact and order details)</li>
-                  <li>Restricted access to personal data by authorized personnel only</li>
-                  <li>Regular security audits and compliance with data safety standards</li>
+                  <li>Licensed pharmacy partners – to fulfill your medicine orders</li>
+                  <li>Authorized delivery personnel – to ensure accurate and timely delivery</li>
+                  <li>Payment gateways (e.g., Razorpay) – for secure transaction processing</li>
+                  <li>Service providers – for app hosting, notifications, and analytics</li>
                 </ul>
+                <p className="mt-3">
+                  All our partners and service providers are bound by strict confidentiality
+                  agreements.
+                </p>
               </div>
             </div>
 
-            {/* 5. Data Sharing */}
+            {/* 5. Data Security */}
             <div className="policy-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
                   <span className="number-badge me-3">5</span>
-                  Sharing Your Information
+                  Data Security
                 </h4>
                 <p>
-                  We do <strong className="text-danger">not sell</strong> your data. Limited sharing
-                  may occur with:
+                  We implement robust technical and organizational security measures to protect your
+                  data from unauthorized access, misuse, or loss. These include:
                 </p>
                 <ul className="list-styled">
-                  <li>Partner pharmacies for order processing</li>
-                  <li>Delivery service providers for accurate dispatch</li>
-                  <li>Regulatory or government authorities if legally required</li>
+                  {/* <li>Secure HTTPS communication</li> */}
+                  <li>Encryption of sensitive personal and transactional data</li>
+                  <li>Regular security audits and compliance with data safety standards</li>
                 </ul>
+                <p className="mt-3">
+                  However, no method of online transmission is entirely secure. While we strive to
+                  protect your information, we cannot guarantee absolute security.
+                </p>
               </div>
             </div>
 
-            {/* 6. Your Rights */}
+            {/* 6. Your Rights and Choices */}
             <div className="policy-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
@@ -122,17 +137,15 @@ const PrivacyAndPolicy = () => {
                   Your Rights and Choices
                 </h4>
                 <ul className="list-styled">
-                  <li>Access or update your account details anytime</li>
-                  <li>Delete your account permanently if desired</li>
-                  <li>Manage app permissions (location, etc.)</li>
+                  <li>Access or update your personal information anytime</li>
+                  <li>You can deletion your Account Anytime</li>
+                  <li>Withdraw consent for data collection (subject to service limitations)</li>
                 </ul>
                 <div className="mt-3 p-3 bg-light rounded">
                   <p className="mb-0">
-                    To request data deletion or account removal, contact us at:{" "}
+                    To request data removal, email us at:{" "}
                     <a
-                      href="https://mail.google.com/mail/?view=cm&fs=1&to=simcurarx@gmail.com&su=Account%20Privacy%20Request"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href="mailto:simcurarx@gmail.com?subject=Account%20Deletion%20Request"
                       className="fw-semibold text-decoration-none"
                     >
                       simcurarx@gmail.com
@@ -142,68 +155,88 @@ const PrivacyAndPolicy = () => {
               </div>
             </div>
 
-            {/* 7. Data Retention */}
+            {/* 7. Children’s Privacy */}
             <div className="policy-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
                   <span className="number-badge me-3">7</span>
-                  Data Retention
+                  Children’s Privacy
                 </h4>
                 <p>
-                  We retain user information as long as your account is active or as required to
-                  provide our services. Order records may be retained for legal and transactional
-                  compliance.
+                  Clynix is intended for users aged 18 and above. We do not knowingly collect
+                  information from minors. If such data is detected, it will be permanently deleted.
                 </p>
               </div>
             </div>
 
-            {/* 8. Children’s Privacy */}
+            {/* 8. Third-Party Services */}
             <div className="policy-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
                   <span className="number-badge me-3">8</span>
-                  Children’s Privacy
+                  Third-Party Services
                 </h4>
                 <p>
-                  Clynix is intended for adults aged 18 and above. We do not knowingly collect
-                  information from minors. If such data is identified, it will be deleted promptly.
+                  Our app may include integrations with third-party services (e.g., payment
+                  gateways, pharmacy systems). We are not responsible for their privacy practices.
+                  Please review their individual privacy policies for more details.
                 </p>
               </div>
             </div>
 
-            {/* 9. Policy Updates */}
+            {/* 9. Disclaimer */}
             <div className="policy-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
                   <span className="number-badge me-3">9</span>
-                  Changes to This Privacy Policy
+                  Disclaimer
                 </h4>
                 <p>
-                  This Privacy Policy may be updated periodically to reflect new features, legal
-                  requirements, or operational changes. Updated versions will be published within
-                  the Clynix app. Continued use after changes means you accept the updated policy.
+                  Clynix is not a pharmacy and does not directly sell or distribute medicines. All
+                  orders are processed and fulfilled by duly licensed pharmacy partners in
+                  compliance with applicable laws.
                 </p>
               </div>
             </div>
 
-            {/* 10. Contact */}
+            {/* 10. Policy Updates */}
             <div className="policy-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
                   <span className="number-badge me-3">10</span>
+                  Updates to This Privacy Policy
+                </h4>
+                <p>
+                  We may update this Privacy Policy periodically. Changes will be reflected here
+                  with an updated “Effective Date.” Continued use of our services implies your
+                  acceptance of any updates.
+                </p>
+              </div>
+            </div>
+
+            {/* 11. Contact Us */}
+            <div className="policy-card card border-0 shadow-sm mb-4">
+              <div className="card-body p-4">
+                <h4 className="mb-3 d-flex align-items-center">
+                  <span className="number-badge me-3">11</span>
                   Contact Us
                 </h4>
-                <p className="mb-0">
-                  For questions, feedback, or privacy concerns, contact our support team at:{" "}
-                  <a
-                    href="https://mail.google.com/mail/?view=cm&fs=1&to=simcurarx@gmail.com&su=Hello%20Clynix"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="fw-semibold text-decoration-none"
-                  >
-                    simcurarx@gmail.com
-                  </a>
+                <p>
+                  For any privacy-related concerns or inquiries, please contact us:
                 </p>
+                <ul className="list-styled">
+                  <li>
+                    📧 Email:{" "}
+                    <a
+                      href="mailto:simcurarx@gmail.com?subject=Hello%20Clynix"
+                      className="fw-semibold text-decoration-none"
+                    >
+                      simcurarx@gmail.com
+                    </a>
+                  </li>
+                  <li>📞 Phone: +91-XXXXXXXXXX</li>
+                  <li>🏢 Address: Chennai, India</li>
+                </ul>
               </div>
             </div>
           </div>
