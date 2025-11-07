@@ -11,7 +11,7 @@ const TermsandConditions = () => {
               Terms and Conditions
             </h1>
             <p className="text-muted">
-              Last updated: 05/11/2025
+              Last updated: {new Date().toLocaleDateString("en-GB")}
             </p>
             <div
               className="divider mx-auto bg-gradient-primary"
@@ -43,7 +43,7 @@ const TermsandConditions = () => {
                   </li>
                   <li>You must be at least 18 years old to use this app.</li>
                   <li>
-                    You agree to provide accurate information (name, mobile number,
+                    You agree to provide accurate information (name, email, mobile number,
                     and OTP verification) when signing up.
                   </li>
                   <li>
@@ -70,11 +70,9 @@ const TermsandConditions = () => {
                   <li>
                     For prescription medicines, a valid prescription may be
                     required before dispensing.
+                    But right now we are providing OTC medicines only.
                   </li>
-                  <li>
-                    Always consult a registered medical practitioner before using
-                    any medicine.
-                  </li>
+                  
                 </ul>
               </div>
             </div>
@@ -94,7 +92,7 @@ const TermsandConditions = () => {
                   <li>We act only as a facilitator between users and pharmacies.</li>
                   <li>
                     We are not responsible for any errors, delays, or inaccuracies in
-                    medicine availability or delivery.
+                    medicine availability.
                   </li>
                 </ul>
               </div>
@@ -115,7 +113,7 @@ const TermsandConditions = () => {
                   <li>Payment processing is handled securely by Razorpay.</li>
                   <li>
                     Orders may be canceled or delayed by pharmacies depending on
-                    stock or prescription verification.
+                    stock.
                   </li>
                 </ul>
               </div>
@@ -149,12 +147,10 @@ const TermsandConditions = () => {
                 </h4>
                 <ul className="list-styled">
                   <li>
-                    Deliveries are handled by authorized delivery partners or
-                    pharmacy staff.
+                    Deliveries are handled by authorized delivery partners.
                   </li>
                   <li>
-                    Delivery times are estimated and may vary based on location,
-                    stock, and pharmacy hours.
+                    Delivery times are estimated and may vary based on location.
                   </li>
                 </ul>
               </div>
@@ -173,7 +169,7 @@ const TermsandConditions = () => {
                     monthly).
                   </li>
                   <li>
-                    Users can modify or deactivate these plans anytime within the
+                    Users can cancel these plans anytime within the
                     app.
                   </li>
                 </ul>
@@ -188,10 +184,10 @@ const TermsandConditions = () => {
                   Data Protection
                 </h4>
                 <p>
-                  We collect minimal user data (name, mobile number, location) only
+                  We collect minimal user data (name, mobile number, email , location) only
                   to enable app functionality. Your data is protected and processed
                   as described in our{" "}
-                  <a href="/privacy-policy" className="text-primary fw-semibold">
+                  <a href="/privacy-and-policy" className="text-primary fw-semibold">
                     Privacy Policy
                   </a>
                   .
@@ -228,8 +224,7 @@ const TermsandConditions = () => {
                   Changes to These Terms
                 </h4>
                 <p>
-                  We may update these Terms and Conditions at any time. Updates
-                  will be posted within the app and will take effect upon
+                  We may update these Terms and Conditions at any time. Updates will take effect upon
                   publication. Continued use constitutes acceptance of the updated
                   Terms.
                 </p>
@@ -257,7 +252,7 @@ const TermsandConditions = () => {
                       simcurarx@gmail.com
                     </a>
                   </li>
-                  <li>📞 Phone: +91-7013914488</li>
+                  <li>📞 Phone: +91-8309056333</li>
                 </ul>
               </div>
             </div>
@@ -272,7 +267,7 @@ const TermsandConditions = () => {
                 <p className="mb-0">
                   These Terms shall be governed by and interpreted according to the
                   laws of India. Any disputes shall be subject to the exclusive
-                  jurisdiction of the courts in Chennai, India.
+                  jurisdiction of the courts.
                 </p>
               </div>
             </div>

@@ -8,7 +8,7 @@ const PrivacyAndPolicy = () => {
           {/* Header Section */}
           <div className="text-center mb-5">
             <h1 className="display-4 fw-bold text-primary mb-3">Privacy Policy</h1>
-            <p className="text-muted">Effective Date: 05/11/2025</p>
+            <p className="text-muted">Last updated: {new Date().toLocaleDateString("en-GB")}</p>
             <div
               className="divider mx-auto bg-gradient-primary"
               style={{ width: "80px", height: "4px", borderRadius: "2px" }}
@@ -48,6 +48,7 @@ const PrivacyAndPolicy = () => {
                 <ul className="list-styled">
                   <li>Full name</li>
                   <li>Mobile number (for OTP verification and login)</li>
+                  <li>Email (for Account Deletion)</li>
                   <li>Address (for medicine delivery)</li>
                   <li>Location data (for delivery tracking and nearby pharmacy detection)</li>
                 </ul>
@@ -74,8 +75,7 @@ const PrivacyAndPolicy = () => {
                 </h4>
                 <ul className="list-styled">
                   <li>To verify your identity via OTP verification</li>
-                  <li>To process and deliver your medicine orders through partner pharmacies</li>
-                  <li>To provide customer support and service updates</li>
+                  <li>To process and deliver your medicine orders through partner pharmacies</li>                  
                   <li>To enhance user experience and optimize delivery performance</li>
                   <li>To comply with applicable legal requirements</li>
                 </ul>
@@ -97,7 +97,7 @@ const PrivacyAndPolicy = () => {
                   <li>Licensed pharmacy partners – to fulfill your medicine orders</li>
                   <li>Authorized delivery personnel – to ensure accurate and timely delivery</li>
                   <li>Payment gateways (e.g., Razorpay) – for secure transaction processing</li>
-                  <li>Service providers – for app hosting, notifications, and analytics</li>
+              
                 </ul>
                 <p className="mt-3">
                   All our partners and service providers are bound by strict confidentiality
@@ -118,7 +118,7 @@ const PrivacyAndPolicy = () => {
                   data from unauthorized access, misuse, or loss. These include:
                 </p>
                 <ul className="list-styled">
-                  {/* <li>Secure HTTPS communication</li> */}
+                 
                   <li>Encryption of sensitive personal and transactional data</li>
                   <li>Regular security audits and compliance with data safety standards</li>
                 </ul>
@@ -139,7 +139,7 @@ const PrivacyAndPolicy = () => {
                 <ul className="list-styled">
                   <li>Access or update your personal information anytime</li>
                   <li>You can deletion your Account Anytime</li>
-                  <li>Withdraw consent for data collection (subject to service limitations)</li>
+                  
                 </ul>
                 <div className="mt-3 p-3 bg-light rounded">
                   <p className="mb-0">
@@ -179,7 +179,6 @@ const PrivacyAndPolicy = () => {
                 <p>
                   Our app may include integrations with third-party services (e.g., payment
                   gateways, pharmacy systems). We are not responsible for their privacy practices.
-                  Please review their individual privacy policies for more details.
                 </p>
               </div>
             </div>
@@ -234,7 +233,7 @@ const PrivacyAndPolicy = () => {
                       simcurarx@gmail.com
                     </a>
                   </li>
-                  <li>📞 Phone: +91-7013914488</li>
+                  <li>📞 Phone: +91-8309056333</li>
                   <li>🏢 Address: Madhavapatnam, India</li>
                 </ul>
               </div>

@@ -6,7 +6,7 @@ const CancellationRefundPolicy = () => {
       {/* Header */}
       <div className="text-center mb-4">
         <h1 className="fw-bold">Cancellation & Refund Policy</h1>
-        <p className="text-muted">Last updated: 05/11/2025</p>
+        <p className="text-muted">Last updated: {new Date().toLocaleDateString("en-GB")}</p>
       </div>
 
       {/* Section 1 */}
@@ -34,8 +34,8 @@ const CancellationRefundPolicy = () => {
             <strong> within 7 business days</strong>.
           </li>
           <li>
-            In case of payment failure or duplicate transactions, contact our support team 
-            immediately for resolution.
+            In case of payment failure or duplicate transactions, contact us for 
+            immediately resolution.
           </li>
           <li>
             Refunds are not provided for that have already been delivered.
@@ -47,7 +47,7 @@ const CancellationRefundPolicy = () => {
       <section className="mb-4">
         <h5 className="fw-semibold">3. How to Request a Cancellation or Refund</h5>
         <p>
-          To request a cancellation or refund, please contact our support team with your 
+          To request a refund, please contact our support team with your 
           transaction details and a brief explanation of your request:
         </p>
         <ul>
@@ -91,7 +91,7 @@ const CancellationRefundPolicy = () => {
           <li>
             Website:{" "}
             <a
-              href="https://clynix.com"
+              href="https://clynix.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-decoration-none"
