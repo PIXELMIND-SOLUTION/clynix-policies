@@ -6,7 +6,7 @@ const CancellationRefundPolicy = () => {
       {/* Header */}
       <div className="text-center mb-4">
         <h1 className="fw-bold">Cancellation & Refund Policy</h1>
-        <p className="text-muted">Last updated: o5/11/2025</p>
+        <p className="text-muted">Last updated: 05/11/2025</p>
       </div>
 
       {/* Section 1 */}
