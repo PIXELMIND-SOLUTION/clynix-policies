@@ -81,10 +81,11 @@ const PrivacyAndPolicy = () => {
                 </h4>
                 <ul className="list-styled">
                   <li>To verify your identity via OTP verification</li>
-                  <li>To process and deliver your medicine orders through partner pharmacies</li>                  
+                  <li>To process and deliver your medicine orders through partner pharmacies</li>
                   <li>To enhance user experience and optimize delivery performance</li>
                   <li>To comply with applicable legal requirements</li>
                   <li>Health-related data is used only to provide pharmacy services, enable ordering of medicines, verify prescriptions (if required), and improve user experience.</li>
+                  <li>We do not use any health-related information for advertising, marketing, or profiling.</li>
                 </ul>
                 <p className="mt-3">
                   We <strong>do not sell</strong> or rent your personal data to any third parties.
@@ -92,11 +93,21 @@ const PrivacyAndPolicy = () => {
               </div>
             </div>
 
-            {/* 4. Information Sharing and Disclosure */}
             <div className="policy-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
                   <span className="number-badge me-3">4</span>
+                  data retention period
+                </h4>
+                <p>We retain user data only as long as necessary to provide services or comply with legal obligations. Prescription images are stored only for order verification and deleted when no longer required.</p>
+              </div>
+            </div>
+
+            {/* 5. Information Sharing and Disclosure */}
+            <div className="policy-card card border-0 shadow-sm mb-4">
+              <div className="card-body p-4">
+                <h4 className="mb-3 d-flex align-items-center">
+                  <span className="number-badge me-3">5</span>
                   Information Sharing and Disclosure
                 </h4>
                 <p>We may share your information only with the following entities:</p>
@@ -104,7 +115,7 @@ const PrivacyAndPolicy = () => {
                   <li>Licensed pharmacy partners – to fulfill your medicine orders</li>
                   <li>Authorized delivery personnel – to ensure accurate and timely delivery</li>
                   <li>Payment gateways (e.g., Razorpay) – for secure transaction processing</li>
-              
+
                 </ul>
                 <p className="mt-3">
                   All our partners and service providers are bound by strict confidentiality
@@ -113,11 +124,11 @@ const PrivacyAndPolicy = () => {
               </div>
             </div>
 
-            {/* 5. Data Security */}
+            {/* 6. Data Security */}
             <div className="policy-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
-                  <span className="number-badge me-3">5</span>
+                  <span className="number-badge me-3">6</span>
                   Data Security
                 </h4>
                 <p>
@@ -125,7 +136,7 @@ const PrivacyAndPolicy = () => {
                   data from unauthorized access, misuse, or loss. These include:
                 </p>
                 <ul className="list-styled">
-                 
+
                   <li>Encryption of sensitive personal and transactional data</li>
                   <li>Regular security audits and compliance with data safety standards</li>
                 </ul>
@@ -136,17 +147,17 @@ const PrivacyAndPolicy = () => {
               </div>
             </div>
 
-            {/* 6. Your Rights and Choices */}
+            {/* 7. Your Rights and Choices */}
             <div className="policy-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
-                  <span className="number-badge me-3">6</span>
+                  <span className="number-badge me-3">7</span>
                   Your Rights and Choices
                 </h4>
                 <ul className="list-styled">
                   <li>Access or update your personal information anytime</li>
-                  <li>You can deletion your Account Anytime</li>
-                  
+                  <li>You can delete your Account Anytime</li>
+
                 </ul>
                 <div className="mt-3 p-3 bg-light rounded">
                   <p className="mb-0">
@@ -162,11 +173,11 @@ const PrivacyAndPolicy = () => {
               </div>
             </div>
 
-            {/* 7. Children’s Privacy */}
+            {/* 8. Children’s Privacy */}
             <div className="policy-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
-                  <span className="number-badge me-3">7</span>
+                  <span className="number-badge me-3">8</span>
                   Children’s Privacy
                 </h4>
                 <p>
@@ -176,11 +187,11 @@ const PrivacyAndPolicy = () => {
               </div>
             </div>
 
-            {/* 8. Third-Party Services */}
+            {/* 9. Third-Party Services */}
             <div className="policy-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
-                  <span className="number-badge me-3">8</span>
+                  <span className="number-badge me-3">9</span>
                   Third-Party Services
                 </h4>
                 <p>
@@ -190,11 +201,11 @@ const PrivacyAndPolicy = () => {
               </div>
             </div>
 
-            {/* 9. Disclaimer */}
+            {/* 10. Disclaimer */}
             <div className="policy-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
-                  <span className="number-badge me-3">9</span>
+                  <span className="number-badge me-3">10</span>
                   Disclaimer
                 </h4>
                 <p>
@@ -205,11 +216,11 @@ const PrivacyAndPolicy = () => {
               </div>
             </div>
 
-            {/* 10. Policy Updates */}
+            {/* 11. Policy Updates */}
             <div className="policy-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
-                  <span className="number-badge me-3">10</span>
+                  <span className="number-badge me-3">11</span>
                   Updates to This Privacy Policy
                 </h4>
                 <p>
@@ -220,11 +231,11 @@ const PrivacyAndPolicy = () => {
               </div>
             </div>
 
-            {/* 11. Contact Us */}
+            {/* 12. Contact Us */}
             <div className="policy-card card border-0 shadow-sm mb-4">
               <div className="card-body p-4">
                 <h4 className="mb-3 d-flex align-items-center">
-                  <span className="number-badge me-3">11</span>
+                  <span className="number-badge me-3">12</span>
                   Contact Us
                 </h4>
                 <p>
