@@ -53,13 +53,19 @@ const PrivacyAndPolicy = () => {
                   <li>Location data (for delivery tracking and nearby pharmacy detection)</li>
                 </ul>
 
-                <h6 className="fw-semibold mt-3">b. Device and Usage Data</h6>
+                <h6 className="fw-semibold mt-3">b. Health related information collected</h6>
+                <ul className="list-styled">
+                  <li>Our app may collect information related to medicines searched, medicine orders, prescription uploads, and pharmacy-related activity.</li>
+                  <li>We collect this information to process pharmacy orders, show relevant medicine information, and maintain user purchase history.</li>
+                </ul>
+
+                <h6 className="fw-semibold mt-3">c. Device and Usage Data</h6>
                 <ul className="list-styled">
                   <li>Device model, operating system version</li>
                   <li>App usage analytics (to improve experience)</li>
                 </ul>
 
-                <h6 className="fw-semibold mt-3">c. Uploaded Files</h6>
+                <h6 className="fw-semibold mt-3">d. Uploaded Files</h6>
                 <ul className="list-styled">
                   <li>Prescription images or medicine photos (if uploaded by you)</li>
                 </ul>
@@ -78,6 +84,7 @@ const PrivacyAndPolicy = () => {
                   <li>To process and deliver your medicine orders through partner pharmacies</li>                  
                   <li>To enhance user experience and optimize delivery performance</li>
                   <li>To comply with applicable legal requirements</li>
+                  <li>Health-related data is used only to provide pharmacy services, enable ordering of medicines, verify prescriptions (if required), and improve user experience.</li>
                 </ul>
                 <p className="mt-3">
                   We <strong>do not sell</strong> or rent your personal data to any third parties.
